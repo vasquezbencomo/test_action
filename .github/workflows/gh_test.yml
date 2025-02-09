@@ -43,5 +43,9 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-        python --version
+        mkdir web_reflex
+        cd web_reflex
+        reflex init
+        reflex run
+        
 
