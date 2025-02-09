@@ -45,7 +45,7 @@ jobs:
         pip install -r requirements.txt
         mkdir web_reflex
         cd web_reflex
-        reflex init
+        yes 0 | reflex init
         reflex run
         
 
